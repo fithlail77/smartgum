@@ -1,2 +1,2 @@
-# asetgum
-Aplikasi Kelola Aset Perushaan
+# Smart GUM 
+Web Dashboard Report
