@@ -42,8 +42,7 @@
             <div class="logo-header">
 
                 <a href="<?= base_url('admin') ?>" class="logo">
-                    PT GUM
-                    <!-- <img src="<?= base_url('ptgumacc') ?>/azzara/assets/img/logoazzara.svg" alt="navbar brand" class="navbar-brand"> -->
+                    <img class="navbar-brand">
                 </a>
                 <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
