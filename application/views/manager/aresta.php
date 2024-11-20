@@ -13,7 +13,7 @@
                         <i class="flaticon-right-arrow"></i>
                     </li>
                     <li class="nav-item">
-                        <a href="#">Produksi & Penjualan</a>
+                        <a href="#">Areal Statement</a>
                     </li>
                 </ul>
             </div>
@@ -22,13 +22,11 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="d-flex align-items-center">
-                            <h4 class="card-title">Produksi & Penjualan GUM</h4>
+                            <h4 class="card-title">Areal Statement</h4>
                         </div>
                     </div>
                     <div class="card-body">
-                        <div style="--aspect-ratio: 16/9;">
-                            <iframe title="Production and Sales Dashboard" width="1260" height="1024" src="https://app.powerbi.com/view?r=eyJrIjoiMWFjMTViZDUtNWVjYy00YTU4LWIyZTYtYzRjODBiM2YwODM1IiwidCI6IjkzMzQ3NTJlLWIwM2EtNDUzNy04ZmY2LTU0ZDU3MGMzNWQyOCIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
-                        </div>
+                        <iframe title="1. ch_gab_rev1 - edit calender - server" width="1260" height="1024" src="https://app.powerbi.com/view?r=eyJrIjoiNmZmMzY2ODUtMWE4MS00ZmNlLWE0NzAtMzFjZmM1ZTk2NmNiIiwidCI6IjkzMzQ3NTJlLWIwM2EtNDUzNy04ZmY2LTU0ZDU3MGMzNWQyOCIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
                     </div>
                 </div>
             </div>

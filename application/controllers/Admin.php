@@ -22,7 +22,7 @@ class Admin extends CI_Controller
                 $this->load->view('admin/index', $data);
                 $this->load->view('include/footer');
             } else if ($user['role_id'] == 3) {
-                redirect('user/manager');
+                redirect('admin/manager');
             } else {
                 redirect('user');
             }
@@ -49,7 +49,7 @@ class Admin extends CI_Controller
                 $this->load->view('admin/user', $data);
                 $this->load->view('include/footer');
             } else if ($user['role_id'] == 3) {
-                redirect('user/manager');
+                redirect('admin/manager');
             } else {
                 redirect('user');
             }

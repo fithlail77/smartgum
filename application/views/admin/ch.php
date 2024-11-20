@@ -26,7 +26,9 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <iframe title="1. ch_gab_rev1 - edit calender - server" width="1260" height="1024" src="https://app.powerbi.com/view?r=eyJrIjoiMmNmNmViN2QtNDYyMC00Zjg5LWJmMjEtOTdkNGUyMGQxMjYyIiwidCI6IjkzMzQ3NTJlLWIwM2EtNDUzNy04ZmY2LTU0ZDU3MGMzNWQyOCIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+                        <div style="--aspect-ratio: 16/9;">
+                            <iframe title="Curah Hujan Dashboard" width="1260" height="1024" src="https://app.powerbi.com/view?r=eyJrIjoiMmNmNmViN2QtNDYyMC00Zjg5LWJmMjEtOTdkNGUyMGQxMjYyIiwidCI6IjkzMzQ3NTJlLWIwM2EtNDUzNy04ZmY2LTU0ZDU3MGMzNWQyOCIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>

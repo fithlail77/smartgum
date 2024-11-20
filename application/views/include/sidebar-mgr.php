@@ -50,7 +50,7 @@
                     <div class="collapse" id="forms">
                         <ul class="nav nav-collapse">
                             <li>
-                                <a href="<?= base_url('aresta'); ?>">
+                                <a href="<?= base_url('arestamgr'); ?>">
                                     <span class="sub-item">Areal Statement</span>
                                 </a>
                             </li>

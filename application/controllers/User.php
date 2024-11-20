@@ -41,7 +41,7 @@ class User extends CI_Controller
                 $data['auth'] = $this->m_auth->getUser();
                 $this->load->view('include/header', $data);
                 $this->load->view('include/sidebar-mgr', $data);
-                $this->load->view('admin/index', $data);
+                $this->load->view('manager/index', $data);
                 $this->load->view('include/footer');
             }
         }

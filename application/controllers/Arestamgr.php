@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Asset extends CI_Controller
+class Aresta extends CI_Controller
 {
 
     public function __construct()
@@ -17,23 +17,21 @@ class Asset extends CI_Controller
         if ($username == '') {
             redirect('auth');
         } else {
-            if ($user['role_id'] == 1) {
-                $data['menu'] = 'Assets';
-                $data['title'] = 'Manajemen Asssets';
+            if ($user['role_id'] == 3) {
+                $data['menu'] = 'Areal Statement';
+                $data['title'] = 'Web Dashboard System';
                 $data['user'] = $user;
-                $data['aset'] = $this->m_assets->getAll();
+                $data['auth'] = $this->m_auth->getUser();
 
                 $this->load->view('include/header', $data);
-                $this->load->view('include/sidebar', $data);
-                $this->load->view('admin/aset', $data);
+                $this->load->view('include/sidebar-mgr', $data);
+                $this->load->view('manager/aresta', $data);
                 $this->load->view('include/footer');
-            } else if ($user['role_id'] == 3) {
-                redirect('user/manager');
+            } else if ($user['role_id'] == 1) {
+                redirect('admin');
             } else {
                 redirect('user');
             }
         }
     }
 }
-
-/* End of file Asset.php and path \application\controllers\Asset.php */

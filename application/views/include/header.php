@@ -30,6 +30,36 @@
 
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link rel="stylesheet" href="<?= base_url('ptgumacc') ?>/azzara/assets/css/demo.css">
+
+    <!-- CSS For Responsive Iframe -->
+    <style type="text/css">
+        [style*="--aspect-ratio"]> :first-child {
+            width: 100%;
+        }
+
+        [style*="--aspect-ratio"]>img {
+            height: auto;
+        }
+
+        @supports (--custom:property) {
+            [style*="--aspect-ratio"] {
+                position: relative;
+            }
+
+            [style*="--aspect-ratio"]::before {
+                content: "";
+                display: block;
+                padding-bottom: calc(100% / (var(--aspect-ratio)));
+            }
+
+            [style*="--aspect-ratio"]> :first-child {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
