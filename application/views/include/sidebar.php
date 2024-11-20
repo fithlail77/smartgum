@@ -65,6 +65,11 @@
                                     <span class="sub-item">Leaf Sampling Unit (LSU)</span>
                                 </a>
                             </li>
+                            <li>
+                                <a href="<?= base_url('assessmentblok'); ?>">
+                                    <span class="sub-item">Assessment Blok</span>
+                                </a>
+                            </li>
                 </li>
             </ul>
         </div>
