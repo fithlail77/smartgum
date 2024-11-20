@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Manajemen Aset PT GUM</title>
+    <title>Web Dashboard - PT GUM</title>
     <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
     <link rel="icon" href="<?= base_url('ptgumacc') ?>/azzara/assets/img/gumico.ico" type="image/x-icon" />
 
@@ -116,7 +116,7 @@
                                         <div class="avatar-lg"><img src="<?= base_url('ptgumacc') ?>/azzara/assets/img/profile.jpg" alt="image profile" class="avatar-img rounded"></div>
                                         <div class="u-text">
                                             <h4>Hizrian</h4>
-                                            <p class="text-muted">hello@example.com</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">Profil Saya</a>
+                                            <p class="text-muted"></p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">Profil Saya</a>
                                         </div>
                                     </div>
                                 </li>
