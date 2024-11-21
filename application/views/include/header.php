@@ -90,9 +90,9 @@
 
             <!-- Navbar Header -->
             <nav class="navbar navbar-header navbar-expand-lg">
-
                 <div class="container-fluid">
                     <div class="collapse" id="search-nav">
+                        <h4 class="card-title">Data Visualization - PT Grand Utama Mandiri</h4>
                         <form class="navbar-left navbar-form nav-search mr-md-3">
                             <div class="input-group">
                             </div>
@@ -107,19 +107,10 @@
                         <li class="nav-item dropdown hidden-caret">
                             <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
                                 <div class="avatar-sm">
-                                    <img src="<?= base_url('ptgumacc') ?>/azzara/assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+                                    <img src="<?= base_url('ptgumacc') ?>/azzara/assets/img/profile3.jpg" alt="..." class="avatar-img rounded-circle">
                                 </div>
                             </a>
                             <ul class="dropdown-menu dropdown-user animated fadeIn">
-                                <li>
-                                    <div class="user-box">
-                                        <div class="avatar-lg"><img src="<?= base_url('ptgumacc') ?>/azzara/assets/img/profile.jpg" alt="image profile" class="avatar-img rounded"></div>
-                                        <div class="u-text">
-                                            <h4>Hizrian</h4>
-                                            <p class="text-muted"></p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">Profil Saya</a>
-                                        </div>
-                                    </div>
-                                </li>
                                 <li>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#">Ubah Password</a>
