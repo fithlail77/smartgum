@@ -2,7 +2,7 @@
     <div class="content">
         <div class="page-inner">
             <div class="page-header">
-                <h4 class="page-title">Areal Statement GUM</h4>
+                <h4 class="page-title">Pemupukan dan Perawatan</h4>
                 <!--<ul class="breadcrumbs">
                     <li class="nav-home">
                         <a href="#">
@@ -13,7 +13,7 @@
                         <i class="flaticon-right-arrow"></i>
                     </li>
                     <li class="nav-item">
-                        <a href="#">Areal Statement</a>
+                        <a href="#">Pemupukan & Perawatan</a>
                     </li>
                 </ul>-->
             </div>
@@ -22,12 +22,12 @@
                 <div class="card">
                     <!--<div class="card-header">
                         <div class="d-flex align-items-center">
-                            <h4 class="card-title">Areal Statement</h4>
+                            <h4 class="card-title">Pemupukan & Perawatan GUM</h4>
                         </div>
                     </div>-->
                     <div class="card-body">
                         <div style="--aspect-ratio: 16/9;">
-                            <iframe title="1. ch_gab_rev1 - edit calender - server" width="1260" height="1024" src="https://app.powerbi.com/view?r=eyJrIjoiNmZmMzY2ODUtMWE4MS00ZmNlLWE0NzAtMzFjZmM1ZTk2NmNiIiwidCI6IjkzMzQ3NTJlLWIwM2EtNDUzNy04ZmY2LTU0ZDU3MGMzNWQyOCIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+                            <iframe title="Pemupukan dan Perawatan Dashboard" width="1260" height="1024" src="https://app.powerbi.com/view?r=eyJrIjoiZTg4YmI1OWYtNzU3YS00Mjc3LWE2N2QtMWRlZjEwZWIxZmY0IiwidCI6IjkzMzQ3NTJlLWIwM2EtNDUzNy04ZmY2LTU0ZDU3MGMzNWQyOCIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
                         </div>
                     </div>
                 </div>

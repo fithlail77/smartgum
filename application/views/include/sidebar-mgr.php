@@ -50,7 +50,7 @@
                     <div class="collapse" id="forms">
                         <ul class="nav nav-collapse">
                             <li>
-                                <a href="<?= base_url('arestamgr'); ?>">
+                                <a href="<?= base_url('aresta'); ?>">
                                     <span class="sub-item">Areal Statement</span>
                                 </a>
                             </li>
@@ -86,6 +86,11 @@
                             <li>
                                 <a href="<?= base_url('lsu'); ?>">
                                     <span class="sub-item">Leaf Sampling Unit (LSU)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?= base_url('assessmentblok'); ?>">
+                                    <span class="sub-item">Assessment Blok</span>
                                 </a>
                             </li>
                 </li>

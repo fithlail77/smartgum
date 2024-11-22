@@ -26,10 +26,16 @@ class Produksi extends CI_Controller
                 $this->load->view('include/sidebar', $data);
                 $this->load->view('admin/prod', $data);
                 $this->load->view('include/footer');
-            } else if ($user['role_id'] == 3) {
-                redirect('user/manager');
             } else {
-                redirect('user');
+                $data['menu'] = 'Produksi & Penjualan';
+                $data['title'] = 'Web Dashboard System';
+                $data['user'] = $user;
+                $data['auth'] = $this->m_auth->getUser();
+
+                $this->load->view('include/header', $data);
+                $this->load->view('include/sidebar-mgr', $data);
+                $this->load->view('manager/prod', $data);
+                $this->load->view('include/footer');
             }
         }
     }
